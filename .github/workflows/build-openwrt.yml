@@ -458,7 +458,7 @@ jobs:
           #   fi
           # done
 
-          echo -e "timestamp=$(date +"%y%mw%V")" >> ${GITHUB_OUTPUT}
+          echo -e "timestamp=$(date +"%Y.%m.%d-%H%M")" >> ${GITHUB_OUTPUT}
           echo "status=success" >> ${GITHUB_OUTPUT}
 
       - name: "[release.md] Record release.md"
