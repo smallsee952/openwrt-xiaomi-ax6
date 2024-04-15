@@ -1,4 +1,4 @@
-name: Build OpenWrt AX6
+name: Build OpenWrt AX6 
 
 on:
   repository_dispatch:
